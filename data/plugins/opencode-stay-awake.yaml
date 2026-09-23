@@ -1,0 +1,4 @@
+name: Stay Awake
+repo: https://github.com/AuroraAeon/opencode-stay-awake
+tagline: Keeps the machine awake only while a session is generating
+description: Blocks system sleep while any OpenCode session is generating — macOS caffeinate, Linux systemd-inhibit. Bounded by design: the inhibitor is released as soon as every session goes idle, a lost end event can never wedge it on, and the blind hold while no event stream is live is capped so a finished session always lets the machine sleep.
